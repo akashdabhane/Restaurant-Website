@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#logo {
+    margin: 10px 20px;
+    border-radius: 45%;
+}
+
+#navigationBar {
+    background-color: gray;
+    color: white;
+    display: flex;
+}
+
+#navigationBar ul {
+    display: flex;
+    margin: 10px 80px;
+    align-items: center;
+    margin-left: 400px;
+}
+
+#navigationBar ul li {
+    display: flex;
+    margin: 10px 20px;
+    list-style-type: none;
+}
+
+.navbarMenu {
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+#middle-frame {
+    display: flex;
+}
+
+#leftDiv {
+    /* align-items: center;
+    align-self: center;
+    align-content: center; */
+    margin: 100px 140px;
+}
+
+#rightDiv img {
+    border-radius: 90%;
+    right: 0px;
+    margin-top: 50px;
+    margin-left: 400px;
+
+}
+
+#SocialMedia {
+    position: fixed;
+    right: 0px;
+    margin-top: 200px;
+    background-color: aquamarine;
+}
+
+.socialIcons {
+    /* position: fixed;
+    right: 0px; */
+    margin: 20px 20px;
+
+}
+
+.changeImage {
+    display: flex;
+    padding: 10px 40px;
+}
+
+.changeImg {
+    padding: 0px 40px;
+}
+
+.changeImage img{
+    border-radius: 90%;
+}
