@@ -3,7 +3,7 @@ console.log("This is menu");
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '',
+		'X-RapidAPI-Key': '90d3170c2cmsh79030fb1639b2a2p1625d8jsn412007095b7b',
 		'X-RapidAPI-Host': 'nutrition-by-api-ninjas.p.rapidapi.com'
 	}
 };
